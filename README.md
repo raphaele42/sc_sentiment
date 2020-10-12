@@ -49,6 +49,10 @@ The Shiny dashboard is live at https://raphaele.shinyapps.io/tw_sentiment_analys
 
 - Based on words frequency.
 
+### To do list
+
+https://github.com/raphaele42/sentiment_shiny/wiki/To-do
+
 
 
 
