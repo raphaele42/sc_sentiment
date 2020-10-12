@@ -2,11 +2,7 @@
 # Raphaele Lamaze
 # October 2020
 
-
-
 # published app is here: https://raphaele.shinyapps.io/tw_sentiment_analysis/
-
-
 
 library(shiny)
 library(ggplot2)
