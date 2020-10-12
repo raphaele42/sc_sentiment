@@ -1,4 +1,5 @@
 
+![Project banner](https://github.com/raphaele42/sentiment_a/blob/master/Sentiment.png "Tweets")
 # Sentiment analysis of tweets about Schitt's Creek
 
 **Summary**: The goal of this project is to offer a dashboard for Social Media managers to analyse the tweets related to a specific brand in order to gain insights on people's engagement with the brand. They want to determine what and how much tweeters are talking about and how they feel about it. This example uses data related to Schitt's Creek.
@@ -16,6 +17,11 @@ The Shiny app display three main panels:
 - David is the most popular character with 272 tweets during the week. 
 
 The Shiny dashboard is live at https://raphaele.shinyapps.io/tw_sentiment_analysis/
+
+**Technologies**: 
+- R (ggplot2, dplyr, textdata)
+- R Shiny
+
 
 
 
