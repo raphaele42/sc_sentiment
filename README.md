@@ -11,17 +11,11 @@ The Shiny app display three main panels:
 **Insights**: 12,251 tweets (05 to 11 October) were collected via API call and analysed. 
 
 - The proportion of positive and negative tweets is consistant from day to day, with approximately 2/3 of tweets expressing a positive sentiment.
-- The number of tweets was between 689 and 804 per day, except for October 7: that day saw a peak at 1098.
-- However, the highest retweet rate was seen on October 5 at 1.01. This is related to a tweet that was retweeted 653 times about the Lovecraft Country cast deserving as many Emmy's at the Schitt's Creek one.
-oct 6: 22%
-oct 11: 48%
-oct 7: 55%
-oct 5: 1.01
-oct 8: 0.36
-oct 9: 0.45%
-oct 10: 0.30
+- The number of tweets is between 689 and 804 per day, except for October 7: that day saw a peak at 1098. This is related to Dan Levy calling out Comedy Central India for censoring Schitt's Creeks. This peak in engagement comes with an increase of positive sentiment to approximately 70%.
+- The highest retweet rate was seen on October 5 at 1.01. This is related to a tweet that was retweeted 653 times about the Lovecraft Country cast deserving as many Emmy's at the Schitt's Creek one.
+- David is the most popular character with 272 tweets during the week. 
+
 The Shiny dashboard is live at https://raphaele.shinyapps.io/tw_sentiment_analysis/
 
 
-- Add the retweet rate daily, with a line graph to see evolution.
-- add a way to identify most retweeted and favorited tweets daily
+
