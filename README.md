@@ -12,7 +12,7 @@ The Shiny app display three main panels:
 
 The Shiny dashboard is live at https://raphaele.shinyapps.io/tw_sentiment_analysis/
 
-![Preview of dashboard](https://github.com/raphaele42/sentiment_shiny/blob/master/sentiment_sh_preview.png "Preview")
+![Preview of dashboard](https://github.com/raphaele42/sentiment_shiny/blob/main/sentiment_sh_preview.png "Preview")
 
 **Technologies**: 
 - R (ggplot2, dplyr, textdata)
