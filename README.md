@@ -1,5 +1,6 @@
 
-![SA banner](https://github.com/raphaele42/sentiment_a/blob/master/Sentiment.png "Sentiment analysis") ![python logo](github.com/raphaele42/sentiment_shiny/blob/main/python.jpg "Tweets")
+![SA banner](https://github.com/raphaele42/sentiment_a/blob/master/Sentiment.png "Sentiment analysis") ![R logo](https://github.com/raphaele42/sentiment_shiny/blob/main/R.jpeg "R logo") ![shiny logo](https://github.com/raphaele42/sentiment_shiny/blob/main/shiny.png "shiny logo")
+
 # Sentiment analysis of tweets about Schitt's Creek
 
 ## Summary
