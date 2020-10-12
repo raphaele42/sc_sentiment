@@ -37,7 +37,7 @@ ui <- fluidPage(theme = "style.css",
                tags$br(),
                tags$div(class = "about-box",
                         h3("About this dashboard"),
-                        p("Explore sentiment and engagement in tweets about Schitt's Creek. The tweets were collected between October 03 and October 09 2020. The corpus includes 13724 tweets and excludes retweets. The code and readme are avalaible on ", a(href="https://github.com/raphaele42/sc_sentiment", "GitHub", target="_blank"), "."))
+                        p("Explore sentiment and engagement in tweets about Schitt's Creek. The tweets were collected between October 05 and October 11 2020. The corpus includes 12,251 tweets and excludes retweets. The code and readme are avalaible on ", a(href="https://github.com/raphaele42/sc_sentiment", "GitHub", target="_blank"), "."))
         )
         
     ), # end row 1
