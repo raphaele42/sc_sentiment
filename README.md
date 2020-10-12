@@ -12,6 +12,8 @@ The Shiny app display three main panels:
 
 The Shiny dashboard is live at https://raphaele.shinyapps.io/tw_sentiment_analysis/
 
+![Preview of dashboard](https://github.com/raphaele42/sentiment_shiny/blob/master/sentiment_sh_preview.png "Preview")
+
 **Technologies**: 
 - R (ggplot2, dplyr, textdata)
 - R Shiny
@@ -29,11 +31,22 @@ The Shiny dashboard is live at https://raphaele.shinyapps.io/tw_sentiment_analys
 - The highest retweet rate was seen on October 5 at 1.01. This is related to a tweet that was retweeted 653 times about the Lovecraft Country cast deserving as many Emmy's at the Schitt's Creek one.
 - David is the most popular character with 272 tweets during the week. 
 
-## Analysis
+## Methodology
+
+### Data Preparation
+
+- Stripped text from special characters, URLs and upper case.
+- Tokenization at word granuarity level (list of all words, their tweet and frequency).
+- Lemmatization to change all words to their base form.
+
 
 ### Sentiment
 
+- Dictionary-based method with AFINN rated vocabulary.
+
 ### Topics
+
+- Based on words frequency.
 
 
 
