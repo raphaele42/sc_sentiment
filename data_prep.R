@@ -21,23 +21,23 @@ library(lubridate)  # dates manipulation
 ### Twitter API connection
 
 # twitter app details
-appname <- 'sa_apps'
-key <- 'viw8hLXDwoDno2i1HPQLTJ3ci'
-secret <- 'ho5P83EBBiIjfuZ7sFJS35NzBY5ROADXbIqK7qqtLEztpmgUL5'
+appname <- 'xxxxxxxx'
+key <- 'xxxxxxxxxxx'
+secret <- 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 # create token named "twitter_token"
 twitter_token <- create_token(
   app = appname,
   consumer_key = key,
   consumer_secret = secret,
-  access_token = '1025065834455158785-zp6vmG244kGC4fCrvjnV33pBzKeaGT',
-  access_secret = '7pL3dClgrF4C5i6fWX2NQVindYDe6mazPxSlfy6I4Btyx')
+  access_token = 'xxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx',
+  access_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxx')
 
 #####################
 
-## search for 20000 tweets about schitt's creek
+## search for up to 30,000 tweets about schitt's creek
 # API search is limited to 6-9 previous days
-# search for 20000 tweets
+# search for 30000 tweets
 # as this is  more than 18000, retryonratelimit = TRUE
 # type of search results to return type = "mixed" (mix of recent and popular).
 # include_rts = FALSE to exclude RT without comment
@@ -45,11 +45,11 @@ collected_tweets <- search_tweets(q = "schitt's creek", n = 30000, type = "mixed
                            retryonratelimit = TRUE)  #13,724 tweets
 
 
-# First coerce the data.frame to all-character so it can be written as csv
+# coerce the data.frame to all-character so it can be written as csv
 collected_tweets <- data.frame(lapply(collected_tweets, as.character), stringsAsFactors=FALSE)
 
 # export bk data to csv so there is no need to run the twitter search again if need backup
-write.csv(collected_tweets, "/Users/raphaele/Documents/R/Portfolio/tw_sent/collected_tweets.csv", 
+write.csv(collected_tweets, "collected_tweets.csv", 
           row.names = FALSE)
 
 # data set for analysis
@@ -255,17 +255,17 @@ fav_per_word <- full_sc_tweets_clean %>%
 #########
 
 # one line per tweet: sc_tweets
-write.csv(sc_tweets, "/Users/raphaele/Documents/R/Portfolio/tw_sent/sc_sa/sc_tweets.csv", 
+write.csv(sc_tweets, "sc_tweets.csv", 
           row.names = FALSE)
 
 # one line per word, tidy format: full_sc_tweets_clean
-write.csv(full_sc_tweets_clean, "/Users/raphaele/Documents/R/Portfolio/tw_sent/sc_sa/full_sc_tweets_clean.csv", 
+write.csv(full_sc_tweets_clean, "full_sc_tweets_clean.csv", 
           row.names = FALSE)
 
 # retweets per word
-write.csv(retweets_per_word, "/Users/raphaele/Documents/R/Portfolio/tw_sent/sc_sa/retweets_per_word.csv", 
+write.csv(retweets_per_word, "retweets_per_word.csv", 
           row.names = FALSE)
 
 # favorite per word
-write.csv(fav_per_word, "/Users/raphaele/Documents/R/Portfolio/tw_sent/sc_sa/fav_per_word.csv", 
+write.csv(fav_per_word, "fav_per_word.csv", 
           row.names = FALSE)
