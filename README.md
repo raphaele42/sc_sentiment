@@ -1,7 +1,7 @@
 
 ![SA banner](https://github.com/raphaele42/sentiment_a/blob/master/Sentiment.png "Sentiment analysis") ![R logo](https://github.com/raphaele42/sentiment_shiny/blob/main/R.jpeg "R logo") ![shiny logo](https://github.com/raphaele42/sentiment_shiny/blob/main/shiny.png "shiny logo")
 
-# Sentiment analysis of tweets about Schitt's Creek
+# Shiny App to Analyse of Tweets Sentiment and Engagement
 
 ## Summary
 The goal of this project is to offer a dashboard for Social Media managers to analyse the tweets related to a specific brand in order to gain insights on people's engagement with the brand. They want to determine what and how much tweeters are talking about and how they feel about it. This example uses data related to Schitt's Creek.
