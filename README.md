@@ -11,7 +11,7 @@ The Shiny app display three main panels:
 - weekly engagement: tweet number and sentiment over the week, as well as words in tweets generating the most retweets and favorites.
 - topic explorer: select a topic / keyword to examine its daily usage, engagement stats and related tweets.
 
-The Shiny dashboard is live at https://raphaele.shinyapps.io/tw_sentiment_analysis/
+**Try the dashboard:** https://raphaele.shinyapps.io/tw_sentiment_analysis/
 
 ![Preview of dashboard](https://github.com/raphaele42/sentiment_shiny/blob/main/sentiment_sh_preview.png "Preview")
 
